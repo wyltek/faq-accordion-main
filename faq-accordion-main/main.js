@@ -4,8 +4,8 @@ accordionBtns.forEach(btn => {
     btn.addEventListener('click', function () {
         this.classList.toggle('active')
         const answer = this.nextElementSibling
-        const plusIcon = this.querySelectorAll('.plus-icon')
-        const minusIcon = this.querySelectorAll('.minus-icon')
+        const plusIcon = this.querySelector('.plus-icon')
+        const minusIcon = this.querySelector('.minus-icon')
 
         if(answer.style.maxHeight) {
             answer.style.maxHeight = null
