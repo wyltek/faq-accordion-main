@@ -9,7 +9,7 @@ accordionBtns.forEach(btn => {
 
         if(answer.style.maxHeight) {
             answer.style.maxHeight = null
-            plusIcon.style.diplay = 'block'
+            plusIcon.style.display = 'block'
             minusIcon.style.display = "none"
         } else {
             answer.style.maxHeight = answer.scrollHeight +
